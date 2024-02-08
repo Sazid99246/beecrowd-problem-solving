@@ -1,7 +1,7 @@
 import java.io.IOException;
 import java.util.Scanner;
 
-public class BEE101 extends IOException {
+public class BEE1001 extends IOException {
     public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(System.in);
 
