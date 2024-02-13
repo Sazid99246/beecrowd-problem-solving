@@ -24,7 +24,7 @@ public class BEE1050 {
             if (code == dddKey) {
                 System.out.println(DDD.get(code));
                 found = true;
-                break; // No need to continue looping once found
+                break;
             }
         }
         if (!found) {
