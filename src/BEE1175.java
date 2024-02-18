@@ -5,12 +5,10 @@ public class BEE1175 {
         Scanner scanner = new Scanner(System.in);
         int[] N = new int[20];
 
-        // Reading 20 integer numbers into the array
         for (int i = 0; i < 20; i++) {
             N[i] = scanner.nextInt();
         }
 
-        // Swapping the elements
         for (int i = 0; i < 10; i++) {
             int temp = N[i];
             N[i] = N[19 - i];
